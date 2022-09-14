@@ -59,3 +59,9 @@ Dimension Tables
         start_time, hour, day, week, month, year, weekday
 
 Here is the star schema - 
+![star schema](https://raw.githubusercontent.com/arya-amisha/sparkify-etl-pipeline/main/images/star-schema.png)
+
+## Steps to run project
+1. Run create_tables.py to create the database and tables.
+2. Run etl.py to process for loading, extracting and inserting the data.
+3. Run test.ipynb to confirm the creation of database and columns.
